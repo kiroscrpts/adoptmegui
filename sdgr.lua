@@ -1,4 +1,3 @@
-""
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
@@ -49,4 +48,3 @@ Button.MouseButton1Click:Connect(function()
     wait(2)
     Status.Text = "Your pet is now bacon"
 end)
-""
